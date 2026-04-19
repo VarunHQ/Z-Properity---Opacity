@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Z Index in HTML</title>
+    <style>
+        div {
+            position: relative;
+            width: 100px;
+            padding: 20px;
+            background-color: #999999;
+            color: white;
+            border: 5px solid blue;
+        }
+        .div1 {
+            z-index: 1;
+        }
+        .div2 {
+            z-index: 2;
+            top: -25px;
+            left: 75px;
+        }
+        .div3 
+        {
+            z-index: 3;
+            top: -50px;
+        }
+        .div4 {
+            z-index: 4;
+            top: -75px;
+            left: 50px;
+        }
+    </style>
+</head>
+<body>
+    <div class="div1">
+        Z Index 1
+    </div>
+    <div class="div2">
+        Z Index 2
+    </div>
+    <div class="div3">
+        Z Index 3
+    </div>
+    <div class="div4">
+        Z Index 4
+    </div>
+</body>
+</html>
